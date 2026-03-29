@@ -28,8 +28,10 @@ so if all else fails try that.
 
 ## Usage
 
-`td3patch PATH/TO/TDIII.EXE`
-`td3patch -delay x PATH/TO/TD3.EXE`
+```
+td3patch PATH/TO/TDIII.EXE
+td3patch -delay x PATH/TO/TD3.EXE
+```
 
 The `delay` parameter allows you to choose how many vblank cycles
 to wait before proceeding to the next frame. 6 appears to be a
